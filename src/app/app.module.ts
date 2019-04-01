@@ -7,12 +7,14 @@ import { AppComponent } from './app.component';
 import { AppBootstrapModule } from './app-bootstrap/app-bootstrap.module';
 import { NavbarComponent } from './navbar/navbar.component';
 import { Routes } from '@angular/router';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    routingComponent
+    routingComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
