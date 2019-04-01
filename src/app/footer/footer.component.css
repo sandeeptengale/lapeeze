@@ -128,3 +128,40 @@ body{
    flex: 0 0 auto;
    -webkit-flex: 0 0 auto;
 }
+
+#myFooter .social-networks {
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 38px;
+}
+
+#myFooter .social-networks a {
+    font-size: 32px;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #f9f9f9;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+#myFooter .social-networks a:hover{
+	text-decoration: none;
+
+}
+
+#myFooter .fa-facebook:hover{
+	color:#0077e2;
+}
+
+#myFooter .fa-google-plus:hover{
+	color:#ef1a1a;
+}
+
+#myFooter .fa-twitter:hover{
+	color: #00aced;
+}
+
+.logo {
+    padding-top: 30px;
+    padding-left: 36px;
+}

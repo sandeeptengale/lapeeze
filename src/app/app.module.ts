@@ -8,6 +8,7 @@ import { AppBootstrapModule } from './app-bootstrap/app-bootstrap.module';
 import { NavbarComponent } from './navbar/navbar.component';
 import { Routes } from '@angular/router';
 import { FooterComponent } from './footer/footer.component';
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { FooterComponent } from './footer/footer.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AppBootstrapModule
+    AppBootstrapModule,
+    AngularFontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
