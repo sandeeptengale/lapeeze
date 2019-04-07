@@ -26,3 +26,18 @@
     margin-top: 36px;
     margin-bottom: 36px
 }
+
+.contact_phone {
+    margin-top: 16px;
+}
+
+.contact_mail {
+    margin-top: 16px;
+}
+
+.contact_icons {
+    float: left;
+    margin-left: 8px;
+    margin-right: 16px
+}
+

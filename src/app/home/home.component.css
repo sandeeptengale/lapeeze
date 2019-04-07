@@ -1,0 +1,17 @@
+.first_row_detail {
+    margin-top: 56px;
+    margin-bottom: 24px;
+}
+
+.button_learn_more {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.mission_vision {
+    margin-top: 36px;
+}
+
+.carousel-item.active {
+    display:block;
+}

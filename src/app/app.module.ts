@@ -9,13 +9,23 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { Routes } from '@angular/router';
 import { FooterComponent } from './footer/footer.component';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
+import { LaptopComponent } from './laptop/laptop.component';
+import { DesktopComponent } from './desktop/desktop.component';
+import { PrinterComponent } from './printer/printer.component';
+import { NetworkingComponent } from './networking/networking.component';
+import { RecoveryComponent } from './recovery/recovery.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     routingComponent,
-    FooterComponent
+    FooterComponent,
+    LaptopComponent,
+    DesktopComponent,
+    PrinterComponent,
+    NetworkingComponent,
+    RecoveryComponent
   ],
   imports: [
     BrowserModule,

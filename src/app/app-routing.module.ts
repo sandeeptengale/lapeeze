@@ -4,6 +4,11 @@ import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import { ServicesComponent } from './services/services.component';
 import { EventsComponent } from './events/events.component'
+import { LaptopComponent } from './laptop/laptop.component';
+import { DesktopComponent } from './desktop/desktop.component';
+import { PrinterComponent } from './printer/printer.component';
+import { NetworkingComponent } from './networking/networking.component';
+import { RecoveryComponent } from './recovery/recovery.component';
 
 const routes: Routes = [
   {
@@ -14,6 +19,16 @@ const routes: Routes = [
     path: 'services', component: ServicesComponent
   }, {
     path: 'events', component: EventsComponent
+  }, {
+    path: 'laptop', component: LaptopComponent
+  }, {
+    path: 'desktop', component: DesktopComponent
+  }, {
+    path: 'printer', component: PrinterComponent
+  }, {
+    path: 'networking', component: NetworkingComponent
+  }, {
+    path: 'recovery', component: RecoveryComponent
   }, {
     path: '',
     redirectTo: '/home',
