@@ -15,3 +15,25 @@
 .carousel-item.active {
     display:block;
 }
+
+.banner_image {
+    width: 1100px;
+    height: 440px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+.banner_header {
+    font-size: -webkit-xxx-large;
+    letter-spacing: 3px;
+    text-size-adjust: auto;
+    color: azure;
+    size: a5
+}
+
+.marquee_text {
+    margin-top: 24px;
+    font-size: x-large;
+    color: black;
+}
